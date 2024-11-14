@@ -1,5 +1,5 @@
 
-# PharmaConnect 
+# PharmaConnect : A Database Solution for Medication Access and Inventory Management
 # Phase 2: Business Process Modeling (Related to Management Information Systems - MIS)
 ## 1. Define Scope:
 The business process being modeled in the PharmaConnect system is the medication search and inventory management process that connects patients and pharmacies through a unified platform. This process addresses the challenges of timely medication access and efficient pharmacy inventory management, aligning with Management Information Systems (MIS) principles by ensuring real-time, data-driven decision-making that optimizes patient experience and pharmacy operations.
@@ -16,7 +16,7 @@ The business process being modeled in the PharmaConnect system is the medication
 ### •	Patient:
  - 	Role: Searches for medications, places orders, receives notifications about medication availability, and is linked to insurance providers.
 ### •	Pharmacy:
- - o	Role: Updates inventory, stocks medications, and provides real-time information about stock availability. It is also linked to insurance providers for pricing adjustments.
+ - 	Role: Updates inventory, stocks medications, and provides real-time information about stock availability. It is also linked to insurance providers for pricing adjustments.
 ### •	Medication:
  - 	Role: The medication being searched for and stocked by pharmacies. The system tracks its availability and pricing across various pharmacies.
 ### •	Inventory Record:
@@ -189,3 +189,19 @@ The ERD for the logical model would be as follows (with relationships shown thro
 - 	Insurance Provider (1) -- (M) Pricing
 - 	Inventory Record (M) -- (1) Medication
 - 	Inventory Record (M) -- (1) Pharmacy
+
+
+#           ..…….………………..GROUP MEMBERS(FALCON)………………………..
+
+- 1.	ISHIMWE Patience                   25708
+- 2.	KOKO BYAMANA Christian             22807
+- 3.	INGABIRE Nadine                    23675
+- 4.	KIGERO KANYANA Daniella            24652
+- 5.	UWAMWIZA Kelia                     24745
+- 6.	HARERIMANA Gaspard                 24960
+- 7.	ISIBO MUHIRE Yanis                 25396
+- 8.	UMUTONI Nadege                     26609
+- 9.	UWAMWIZA Kelia                     24745
+- 10.	MAZIMPAKA Danny                   25748
+- 11.	ISHIMWE Joel                      24720 
+- 12.	IRAKARAMA Bergerac                24873
