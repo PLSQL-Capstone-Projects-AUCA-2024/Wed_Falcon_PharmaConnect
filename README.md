@@ -2,7 +2,7 @@
 # PharmaConnect : A Database Solution for Medication Access and Inventory Management
 
 
-# Phase 2: Business Process Modeling (Related to Management Information Systems - MIS)
+## Phase 2: Business Process Modeling (Related to Management Information Systems - MIS)
 ## 1. Scope of the Project:
 The business process being modeled in the PharmaConnect system is the medication search and inventory management process that connects patients and pharmacies through a unified platform. This process addresses the challenges of timely medication access and efficient pharmacy inventory management, aligning with Management Information Systems (MIS) principles by ensuring real-time, data-driven decision-making that optimizes patient experience and pharmacy operations.
 ### •	Objectives:
@@ -90,7 +90,7 @@ The UML Class Diagram for the PharmaConnect system illustrates the relationships
 
 
 
-# Phase 3: Logical Model Design
+## Phase 3: Logical Model Design
 
 The logical data model for the PharmaConnect system will include all the key entities, their attributes, and the relationships between them, while ensuring that the design can handle various data scenarios and address the problems identified in Phase 1 (medication accessibility and pharmacy inventory management).
 ## 1. Entities and Attributes
