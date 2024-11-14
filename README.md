@@ -1,5 +1,5 @@
 
-# Wed_Falcon_PharmaConnect
+# PharmaConnect 
 # Phase 2: Business Process Modeling (Related to Management Information Systems - MIS)
 ## 1. Define Scope:
 The business process being modeled in the PharmaConnect system is the medication search and inventory management process that connects patients and pharmacies through a unified platform. This process addresses the challenges of timely medication access and efficient pharmacy inventory management, aligning with Management Information Systems (MIS) principles by ensuring real-time, data-driven decision-making that optimizes patient experience and pharmacy operations.
@@ -39,4 +39,8 @@ Swimlanes can be used to visually separate the different entities involved in th
  - o	Links to pharmacies and patients
 
 # 4. Apply UML (Class Diagram)
+Below is the UML Class Diagram for the PharmaConnect system.
 
+  ![UML Class Diagram](PharmaConnect.png)
+
+The diagram shows the relationships between key entities in the PharmaConnect system, including Patients, Pharmacies, Medications, and Inventory Records.
