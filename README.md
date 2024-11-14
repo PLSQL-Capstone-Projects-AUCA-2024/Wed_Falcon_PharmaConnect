@@ -1,5 +1,7 @@
 
 # PharmaConnect : A Database Solution for Medication Access and Inventory Management
+
+
 # Phase 2: Business Process Modeling (Related to Management Information Systems - MIS)
 ## 1. Define Scope:
 The business process being modeled in the PharmaConnect system is the medication search and inventory management process that connects patients and pharmacies through a unified platform. This process addresses the challenges of timely medication access and efficient pharmacy inventory management, aligning with Management Information Systems (MIS) principles by ensuring real-time, data-driven decision-making that optimizes patient experience and pharmacy operations.
@@ -193,15 +195,15 @@ The ERD for the logical model would be as follows (with relationships shown thro
 
 #           ..…….………………..GROUP MEMBERS(FALCON)………………………..
 
-- 1.	ISHIMWE Patience                   25708
-- 2.	KOKO BYAMANA Christian             22807
-- 3.	INGABIRE Nadine                    23675
-- 4.	KIGERO KANYANA Daniella            24652
-- 5.	UWAMWIZA Kelia                     24745
-- 6.	HARERIMANA Gaspard                 24960
-- 7.	ISIBO MUHIRE Yanis                 25396
-- 8.	UMUTONI Nadege                     26609
-- 9.	UWAMWIZA Kelia                     24745
-- 10.	MAZIMPAKA Danny                   25748
-- 11.	ISHIMWE Joel                      24720 
-- 12.	IRAKARAMA Bergerac                24873
+- 	ISHIMWE Patience                   25708
+- 	KOKO BYAMANA Christian             22807
+- 	INGABIRE Nadine                    23675
+- 	KIGERO KANYANA Daniella            24652
+- 	UWAMWIZA Kelia                     24745
+- 	HARERIMANA Gaspard                 24960
+- 	ISIBO MUHIRE Yanis                 25396
+- 	UMUTONI Nadege                     26609
+- 	UWAMWIZA Kelia                     24745
+- 	MAZIMPAKA Danny                   25748
+- 	ISHIMWE Joel                      24720 
+- 	IRAKARAMA Bergerac                24873
