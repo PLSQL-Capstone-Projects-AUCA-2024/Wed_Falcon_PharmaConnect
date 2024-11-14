@@ -193,11 +193,11 @@ The ERD for the logical model would be as follows (with relationships shown thro
 - 	Inventory Record (M) -- (1) Pharmacy
 
 # Conclusion: Phase 2 and 3
-       In Phase 2, we focused on modeling the PharmaConnect system’s business process, which aims to improve medication access and inventory management. The system connects patients, pharmacies, and insurance providers, allowing patients to search for medications and receive real-time availability notifications, while pharmacies can manage inventory more efficiently. Key entities like Patient, Pharmacy, Medication, and Insurance Provider were defined, with swimlanes clarifying their roles and interactions.
+  In Phase 2, we focused on modeling the PharmaConnect system’s business process, which aims to improve medication access and inventory management. The system connects patients, pharmacies, and insurance providers, allowing patients to search for medications and receive real-time availability notifications, while pharmacies can manage inventory more efficiently. Key entities like Patient, Pharmacy, Medication, and Insurance Provider were defined, with swimlanes clarifying their roles and interactions.
 
-      Phase 3 developed the logical data model, ensuring data integrity and handling various scenarios such as stock management and pricing adjustments. The model incorporates relationships, primary/foreign keys, and constraints to optimize data flow and support the system’s functionality.
+ Phase 3 developed the logical data model, ensuring data integrity and handling various scenarios such as stock management and pricing adjustments. The model incorporates relationships, primary/foreign keys, and constraints to optimize data flow and support the system’s functionality.
 
-     Together, these phases ensure the system's efficiency in real-time medication tracking, inventory updates, and cost transparency, improving patient experience and pharmacy operations.
+ Together, these phases ensure the system's efficiency in real-time medication tracking, inventory updates, and cost transparency, improving patient experience and pharmacy operations.
      
 #           ..…….………………..GROUP MEMBERS(FALCON)………………………..
 
