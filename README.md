@@ -3,7 +3,7 @@
 
 
 # Phase 2: Business Process Modeling (Related to Management Information Systems - MIS)
-## 1. Define Scope:
+## 1. Scope of the Project:
 The business process being modeled in the PharmaConnect system is the medication search and inventory management process that connects patients and pharmacies through a unified platform. This process addresses the challenges of timely medication access and efficient pharmacy inventory management, aligning with Management Information Systems (MIS) principles by ensuring real-time, data-driven decision-making that optimizes patient experience and pharmacy operations.
 ### •	Objectives:
  - 	To improve medication accessibility for patients by enabling them to search for available medications at local pharmacies.
