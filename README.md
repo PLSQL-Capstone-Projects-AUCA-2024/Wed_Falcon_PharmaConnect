@@ -46,7 +46,7 @@ Below is the UML Class Diagram for the PharmaConnect system.
   ![UML Class Diagram](PharmaConnect.png)
 
 The diagram shows the relationships between key entities in the PharmaConnect system, including Patients, Pharmacies, Medications, and Inventory Records.
-# 6. Explanation of the PharmaConnect UML Diagram
+# 5. Explanation of the PharmaConnect UML Diagram
 The UML Class Diagram for the PharmaConnect system illustrates the relationships between key entities that are central to the medication search and inventory management process. These entities include Patient, Pharmacy, Medication, Notification, InventoryRecord, InsuranceProvider, and Pricing. Each of these entities plays an essential role in ensuring efficient medication availability and transparent pricing across local pharmacies.
 
 ## Main Components:
