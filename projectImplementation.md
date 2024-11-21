@@ -24,6 +24,7 @@ In this phase, we set up the initial environment, including checking existing pl
          ALTER SESSION SET CONTAINER = wedn_falcon_pharmaconnect;
 
 - unmount or open database to able to work on it
+  
          ALTER DATABASE OPEN;
 
 ## ------------------Phase 5: Schema Design and Data Insertion---------------
