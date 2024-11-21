@@ -1,7 +1,9 @@
- # Phase 4, Phase 5 and Phase 6
+ # Project : PharmaConnect Management System (Phase 4, Phase 5 and Phase 6)
 
-## ------------------------------------------------Phase 4-------------------------------------------
+This repository documents the development process for a Pharmacy Management System, focusing on Phases 4, 5, and 6. Each phase includes detailed SQL operations that range from creating databases to implementing various relational tables, insertion of data, and performing joins to manage relationships between different entities.
 
+## ----------------------Phase 4: Database Initialization and Setup ------------------------
+In this phase, we set up the initial environment, including checking existing pluggable databases (PDBs), creating a new pluggable database, and switching between sessions to work within the specific PDB. The database is configured to manage pharmacy-related data efficiently.
 
 - checking PBDS 
 
@@ -24,8 +26,12 @@
 - unmount or open database to able to work on it
          ALTER DATABASE OPEN;
 
-## ------------------------------------------------Phase 5-------------------------------------------
+## --------------------Phase 5: Schema Design and Data Insertion-----------------------
+- Table Creation: Several key tables are created, including Patient, Pharmacy, Medication, Inventory_Record, Insurance_Provider, Pricing, and other related tables to manage the relationships between these entities.
 
+- Data Insertion: Insert operations are performed to populate these tables with sample data, establishing the foundation for operations involving patients, pharmacies, insurance providers, and medication inventory.
+
+- Data Integrity Verification: Queries are used to verify data integrity, ensuring that all patients are linked correctly to insurance providers and all medications are available in pharmacies.
 
 ### Table Creation Section
 
@@ -282,8 +288,10 @@
          LEFT JOIN Inventory_Record ir ON p.Pharmacy_ID = ir.Pharmacy_ID AND m.Medication_ID = ir.Medication_ID
          ORDER BY m.Medication_ID, p.Pharmacy_ID;
 
-## ------------------------------------------------Phase 6-------------------------------------------
+## ---------------------Phase 6: Advanced SQL Joins and Transactions---------------------
+- SQL Joins: Various types of joins are demonstrated to showcase data retrieval from multiple tables, such as cross joins, inner joins, left joins, right joins, and full outer joins. This allows us to answer questions like which medications are available in which pharmacies or which patients have certain insurance plans.
 
+- Transaction Handling: A transaction example is included to demonstrate the rollback mechanism in case of errors, ensuring data consistency and reliability.
 ### Joins
 
 
@@ -350,4 +358,7 @@
                      DBMS_OUTPUT.PUT_LINE('Error occurred: ' || SQLERRM);
              END;
 
+
+
+This README provides an overview of the SQL operations and the logical flow between different phases, which helps in building a robust and scalable Pharmacy(PharmaConnect) Management System. Detailed SQL commands can be found within each phase section to aid in recreating the database and ensuring proper data relationships.
                             
