@@ -274,6 +274,7 @@ In this phase, we set up the initial environment, including checking existing pl
         WHERE Medication_ID = 301;
 ### Deleting
 - Delete the record where Medication_ID = 301 and Insurance_ID = 1
+  
        DELETE FROM Medication_Insurance
        WHERE Medication_ID = 301 AND Insurance_ID = 1;
 
