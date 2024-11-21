@@ -24,7 +24,7 @@
 - unmount or open database to able to work on it
          ALTER DATABASE OPEN;
 
-## ---------------------------------------------------------Phase 5---------------------------------------------------
+## ------------------------------------------------Phase 5-------------------------------------------
 
 
 ### Table Creation Section
@@ -282,7 +282,7 @@
          LEFT JOIN Inventory_Record ir ON p.Pharmacy_ID = ir.Pharmacy_ID AND m.Medication_ID = ir.Medication_ID
          ORDER BY m.Medication_ID, p.Pharmacy_ID;
 
-## ----------------------------------------------------------Phase 6---------------------------------------------------------
+## ------------------------------------------------Phase 6-------------------------------------------
 
 ### Joins
 
