@@ -262,11 +262,13 @@ In this phase, we set up the initial environment, including checking existing pl
 
 ### Updating
 - Update the email of the pharmacy with Pharmacy_ID = 201
+  
         UPDATE Pharmacy
         SET Email = 'newemail@citypharmacy.com'
         WHERE Pharmacy_ID = 201;
 
 - Update the strength of the medication with Medication_ID = 301
+  
         UPDATE Medication
         SET Strength = '650mg'
         WHERE Medication_ID = 301;
