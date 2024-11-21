@@ -259,6 +259,20 @@ In this phase, we set up the initial environment, including checking existing pl
         INSERT INTO Medication_Insurance (Medication_ID, Insurance_ID)
         VALUES (303, 3);
 
+### Updating
+- Update the email of the pharmacy with Pharmacy_ID = 201
+        UPDATE Pharmacy
+        SET Email = 'newemail@citypharmacy.com'
+        WHERE Pharmacy_ID = 201;
+
+- Update the strength of the medication with Medication_ID = 301
+        UPDATE Medication
+        SET Strength = '650mg'
+        WHERE Medication_ID = 301;
+### Deleting
+- Delete the record where Medication_ID = 301 and Insurance_ID = 1
+       DELETE FROM Medication_Insurance
+       WHERE Medication_ID = 301 AND Insurance_ID = 1;
 
 ### Data Integrity Verification
 - check for integrity
