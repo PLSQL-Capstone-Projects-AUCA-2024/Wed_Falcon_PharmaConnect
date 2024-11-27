@@ -12,7 +12,7 @@ The business process being modeled in the PharmaConnect system is the medication
 ### •	Expected Outcomes:
  - 	Patients can access real-time medication availability, reducing unnecessary trips to pharmacies and increasing convenience.
  - 	Pharmacies achieve improved inventory management, reducing overstocking and stockouts.
- - 	Enhanced patient satisfaction, as they are notified about medication availability and costs.
+ - 	Enhanced patient satisfaction, as they are notified about medications availability and costs.
 ## 2. Identify Key Entities:
  The key entities involved in the business process are:
 ### •	Patient:
