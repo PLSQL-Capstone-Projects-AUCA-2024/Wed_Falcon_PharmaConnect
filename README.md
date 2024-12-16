@@ -210,6 +210,6 @@ The ERD for the logical model would be as follows (with relationships shown thro
 - 	ISIBO MUHIRE Yanis                 25396
 - 	UMUTONI Nadege                     26609
 - 	UWAMWIZA Kelia                     24745
-- 	MAZIMPAKA Danny                   25748
+- 	Mazimpaka Danny                   25748
 - 	ISHIMWE Joel                      24720 
 - 	IRAKARAMA Bergerac                24873
